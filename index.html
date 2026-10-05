@@ -61,7 +61,7 @@ if (!isPS4) {
 <h1>AJZA ALHASB JAILBREAK</h1>
 
 <br>
-<h1 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;">جاري تحميل GoldHEN v2.4b18.10... يرجى الانتظار</h1>
+<h1 id=msgs style="font-size: 30px;margin-top: 77px;margin-bottom: 455px;"> Loading GoldHEN v2.4b18.10... </h1>
 <h1 style="margin-top: 43px;"></h1>
 </body>
 </html>
@@ -99,12 +99,12 @@ if (!isPS4) {
     margin: 0 auto; 
     transition: opacity 0.3s ease, transform 0.3s ease; 
 } 
-/* شريط التحميل الداخلي وحركته لـ 8 ثانية (تم التعديل هنا) */ 
+/* شريط التحميل الداخلي وحركته لـ 5 ثانية (تم التعديل هنا) */ 
 .top-loading-bar { 
     width: 100%; 
     height: 100%; 
     background-color: #1ccb88; 
-    animation: progressLoader 8s linear forwards; 
+    animation: progressLoader 5s linear forwards; 
 } 
 /* حركة التعبئة من اليسار لليمين */ 
 @keyframes progressLoader { 
@@ -116,7 +116,7 @@ if (!isPS4) {
 <script> 
 (function() { 
     const containerElement = document.getElementById("loading-container"); 
-    // إخفاء شريط التحميل نهائياً بعد مرور 8 ثانية = 8000 ميلي ثانية (تم التعديل هنا) 
+    // إخفاء شريط التحميل نهائياً بعد مرور 5 ثانية = 5000 ميلي ثانية (تم التعديل هنا) 
     setTimeout(() => { 
         if (containerElement) { 
             containerElement.style.opacity = '0'; 
